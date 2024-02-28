@@ -108,7 +108,8 @@ sections:
           date_end: ''
           description: |2-
               **Advised by**
-              Professor [Jianguo Wang](https://www.cs.purdue.edu/homes/csjgwang/)
+
+              [Prof. Jianguo Wang](https://www.cs.purdue.edu/homes/csjgwang/)
 
               **Projects**
 
@@ -121,7 +122,8 @@ sections:
           date_end: ''
           description: |2-
               **Advised by**
-              Professor [Mingjie Tang](https://merlintang.github.io/)
+
+              [Prof. Mingjie Tang](https://merlintang.github.io/)
 
               **Projects**
 
