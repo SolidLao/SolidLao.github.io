@@ -38,7 +38,7 @@ education:
   courses:
     - course: PhD in Computer Science
       institution: Cornell University
-      year: 2029
+      year: Present
     - course: B.Eng in Software Engineering
       institution: Sichuan University
       year: 2024
