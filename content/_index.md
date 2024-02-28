@@ -57,10 +57,10 @@ sections:
       text: |-
         <ul>
           <li>
-              <strong>[2024/02/27]</strong> A great virtual meeting with <a href="">Prof. Immanuel Trummer</a>! Looking forward to <strong>pursuing my PhD</strong> in the database group at Cornell University in August!
+              <strong>[2024/02/27]</strong> A great virtual meeting with <a href="https://itrummer.github.io/">Prof. Immanuel Trummer</a>! Looking forward to <strong>pursuing my PhD</strong> in the database group at Cornell University in August!
           </li>
           <li>
-              <strong>[2024/02/01]</strong> Excited to <strong>be admitted to the PhD program in Computer Science at Cornell</strong>, starting in Fall 2024!
+              <strong>[2024/02/01]</strong> Excited to <strong>be admitted to the PhD program</strong> in <a href="https://www.cs.cornell.edu/">Computer Science at Cornell University</a>, starting in Fall 2024!
           </li>
           <li>
               <strong>[2024/01/31]</strong> A video demonstration of GPTuner is available on <a href="">YouTube</a>! 
