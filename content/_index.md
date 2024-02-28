@@ -83,6 +83,7 @@ sections:
     design:
       columns: '2'
   - block: collection
+    id: publications
     content:
       title: Selected Publications
       text: |-
@@ -97,6 +98,7 @@ sections:
       columns: '2'
       view: citation
   - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
