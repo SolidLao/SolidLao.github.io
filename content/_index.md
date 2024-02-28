@@ -50,6 +50,29 @@ sections:
   #     username: admin
   #   design:
   #     columns: '1'
+  - block: custom
+    content:
+      title: Recent News
+      text: |-
+        <ul>
+          <li>
+              A video demonstration of GPTuner is available on <a href="">YouTube</a>! [2024/1/31]
+          </li>
+          <li>
+              Congratulations! <a href="https://arxiv.org/abs/2311.03157">GPTuner</a> is under <strong>revision</strong> of Proceedings of Very Large Data Bases Conference (<strong>VLDB</strong>) ! [2023/12/16]
+          </li>
+
+          <li>
+              <a href="https://mp.weixin.qq.com/s/n2_LUw2DXbuZFYGYbq_wTA">An article about GPTuner</a> gains near <strong>1500</strong> readers in just one day on Wechat Platform! [2023/11/20]
+          </li>
+
+          <li>
+              <a href="https://github.com/SolidLao/GPTuner">GPTuner</a> gains more than <strong>3000</strong> views, <strong>200</strong> clones and <strong>30</strong> stars on github! [2023/11/19]
+          </li>
+          <li>
+              <a href="https://github.com/SolidLao/GPTuner">GPTuner</a> is open-sourced now! [2023/11/02]
+          </li>
+      </ul>
   - block: experience
     content:
       title: Experience
