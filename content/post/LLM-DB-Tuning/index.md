@@ -45,7 +45,7 @@ categories:
 Modern database management systems (DBMS) expose hundreds of configurable parameters (i.e., knobs) to control system behaviors.
 Selecting appropriate values for these knobs is crucial to improve DBMS performance (e.g., set knob 'shared_buffers' from PostgreSQL to 25% of the RAM to improve performance).
 
-![DBMS-Knob-Tuning](/content/post/LLM-DB-Tuning/images/knob_tuning.png){: width="30%"}
+![DBMS-Knob-Tuning](knob_tuning.png "figure-1")
 
 As a common practice, experienced Database Administrators (DBAs) take great efforts (e.g., weeks or even months) to tune the target DBMS for a given workload (i.e., a workload is a set of SQL statements).
 
