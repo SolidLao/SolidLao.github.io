@@ -45,11 +45,11 @@ categories:
 Modern database management systems (DBMS) expose hundreds of configurable parameters (i.e., knobs) to control system behaviors.
 Selecting appropriate values for these knobs is crucial to improve DBMS performance (e.g., set knob 'shared_buffers' from PostgreSQL to 25% of the RAM to improve performance).
 
-![DBMS-Knob-Tuning](/images/knob_tuning.png){: width="30%"}
+![DBMS-Knob-Tuning](/content/post/LLM-DB-Tuning/images/knob_tuning.png){: width="30%"}
 
 As a common practice, experienced Database Administrators (DBAs) take great efforts (e.g., weeks or even months) to tune the target DBMS for a given workload (i.e., a workload is a set of SQL statements).
 
-![DBA-Tuning](/images/human_tuning.png){: width="30%"}
+![DBA-Tuning](/content/post/LLM-DB-Tuning/images/human_tuning.png){: width="30%"}
 
 However, manual tuning struggles to handle different workloads, hardware environments, especially in nowadays cloud environments. Thus Machine Learning (ML)-based tuning systems are proposed to search for well-performing knob configurations automatically. They can be classified into two main categories: Bayesian Optimization (BO)-based and Reinforcement Learning (RL)-based. The algorithm details are omitted here, please refer to [OtterTune](https://db.cs.cmu.edu/projects/ottertune/) and [CDBTune](https://dl.acm.org/doi/10.1145/3299869.3300085) for more details, which are the representative works for BO-based and RL-based methods, respectively. 
 
@@ -59,7 +59,7 @@ While ML-based DBMS tuning methods do possess the potential to eventually reach 
 ## DB-BERT: a Database Tuning Tool that "Reads the Manual"
 [DB-BERT](https://itrummer.github.io/dbbert/) is an excellent work that utilizes a pre-trained language model ([BERT](https://huggingface.co/docs/transformers/model_doc/bert)) to mine tuning hints from manuals and use the hints to guide the iterative optimization process (Specifically, the process is based on Double Deep Q-Networks, a Reinforcement Learning algorithm). 
 
-![DB-BERT](/images/dbbert.png){: width="30%"}
+![DB-BERT](/content/post/LLM-DB-Tuning/images/dbbert.png){: width="30%"}
 
 ### An Simple Example of Extracting Tuning Hints from Manuals
 Given the following text snippet from [PostgreSQL official document](https://www.postgresql.org/docs/9.1/runtime-config-resource.html):
@@ -118,7 +118,7 @@ In pratice, DB-BERT requires offline training to fine-tune the BERT model. When 
 ## From DB-BERT to DB-BART and DB-GPT-4
 Since fine-tuning requires training data preparation and hardware resources, DB-BERT then uses [BART](https://huggingface.co/facebook/bart-large-mnli) as its language model (despite the project name) to leverage its zero-shot classification ability, and thus no longer requires training. Except for the different language model used, DB-BART (for the purpose of distinguishing) works in a different way compared to that of DB-BERT and I summarize it in the following figure:
 
-![DB-BART](/images/dbbart.png)
+![DB-BART](/content/post/LLM-DB-Tuning/images/dbbart.png)
 
 Instead of using language model to answer the questions directly, DB-BART treats the language model as "an encoder" to provide "observation" for RL neural networks, and the questions are answered by RL. Specifically, the observation vector is defined as follows:
 > [ doc_id, hint_id, Q_id, S(0), S(1), S(2), S(3), S(4) ]
@@ -137,7 +137,7 @@ GPTuner takes more information into consideration (e.g., we discard meaningless 
 
 We present the system overview of GPTuner below. For more details, please refer to the [GPTuner Project](https://solidlao.github.io/researches/2023-10-14-research-gptuner/).
 
-![GPTuner](/images/gptuner.png)
+![GPTuner](/content/post/LLM-DB-Tuning/images/gptuner.png)
 
 ## Comparison between DB-BERT Series and GPTuner
 
@@ -154,3 +154,4 @@ We present the system overview of GPTuner below. For more details, please refer 
 | **Considered Guidance**       | Suggested Value                    | Suggested Value<br>Bound Constraint<br>Special Cases |
 
 ### Performance Comparison
+![GPTuner](/content/post/LLM-DB-Tuning/content/post/LLM-DB-Tuning/images/dbbert_gptuner.png)
