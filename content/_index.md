@@ -57,7 +57,13 @@ sections:
       text: |-
         <ul>
           <li>
-              <strong>[2024/1/31]</strong> A video demonstration of GPTuner is available on <a href="">YouTube</a>! 
+              <strong>[2024/02/27]</strong> A great virtual meeting with Prof. Immanuel Trummer! Looking forward to pursuing my PhD in the database group at Cornell University in August!
+          </li>
+          <li>
+              <strong>[2024/02/01]</strong> Excited to be admitted to the PhD program in Computer Science at Cornell, starting in Fall 2024!
+          </li>
+          <li>
+              <strong>[2024/01/31]</strong> A video demonstration of GPTuner is available on <a href="">YouTube</a>! 
           </li>
           <li>
               <strong>[2023/12/16]</strong> Congratulations! <a href="https://arxiv.org/abs/2311.03157">GPTuner</a> is under <strong>revision</strong> of Proceedings of Very Large Data Bases Conference (<strong>VLDB</strong>) ! 
