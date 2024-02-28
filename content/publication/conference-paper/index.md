@@ -21,7 +21,7 @@ authors:
 #   - 'Equal contribution'
 
 date: '2024'
-doi: ''
+doi: 'https://doi.org/10.48550/arXiv.2311.03157'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024'
