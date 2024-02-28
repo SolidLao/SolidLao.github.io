@@ -102,27 +102,54 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Research Assistant
+          company: Purdue Database Systems Group
+          date_start: '2023-04-18'
           date_end: ''
           description: |2-
-              Responsibilities include:
+              **Advised by**
+              Professor [Jianguo Wang](https://www.cs.purdue.edu/homes/csjgwang/)
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              **Projects**
+
+              * Automatic Optimization of Database with Large Language Model
+              * Distance Indexing Optimization via Graph Neural Network 
+
+        - title: Research Assistant
+          company: AI and System Lab at Sichuan University
+          date_start: '2022-10-23'
+          date_end: ''
+          description: |2-
+              **Advised by**
+              Professor [Mingjie Tang](https://merlintang.github.io/)
+
+              **Projects**
+
+              * Automatic Optimization of Database with Large Language Model
+              * Distance Indexing Optimization via Graph Neural Network 
+
+        # - title: CEO
+        #   company: GenCoin
+        #   company_url: ''
+        #   company_logo: org-gc
+        #   location: California
+        #   date_start: '2021-01-01'
+        #   date_end: ''
+        #   description: |2-
+        #       Responsibilities include:
+
+        #       * Analysing
+        #       * Modelling
+        #       * Deploying
+
+        # - title: Professor of Semiconductor Physics
+        #   company: University X
+        #   company_url: ''
+        #   company_logo: org-x
+        #   location: California
+        #   date_start: '2016-01-01'
+        #   date_end: '2020-12-31'
+        #   description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
   # - block: accomplishments
