@@ -74,6 +74,8 @@ sections:
               <a href="https://github.com/SolidLao/GPTuner">GPTuner</a> is open-sourced now! [2023/11/02]
           </li>
         </ul>
+    design:
+      columns: '2'
   - block: experience
     content:
       title: Experience
