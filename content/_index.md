@@ -103,7 +103,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Research Assistant
-          company: Purdue Database Systems Group
+          company: Database Systems Group at Purdue University
           date_start: '2023-04-18'
           date_end: ''
           description: |2-
