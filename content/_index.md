@@ -109,7 +109,7 @@ sections:
           description: |2-
               **Advised by**
 
-              [Prof. Jianguo Wang](https://www.cs.purdue.edu/homes/csjgwang/)
+              * [Prof. Jianguo Wang](https://www.cs.purdue.edu/homes/csjgwang/)
 
               **Projects**
 
@@ -123,7 +123,7 @@ sections:
           description: |2-
               **Advised by**
 
-              [Prof. Mingjie Tang](https://merlintang.github.io/)
+              * [Prof. Mingjie Tang](https://merlintang.github.io/)
 
               **Projects**
 
