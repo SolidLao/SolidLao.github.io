@@ -45,11 +45,11 @@ categories:
 Modern database management systems (DBMS) expose hundreds of configurable parameters (i.e., knobs) to control system behaviors.
 Selecting appropriate values for these knobs is crucial to improve DBMS performance (e.g., set knob 'shared_buffers' from PostgreSQL to 25% of the RAM to improve performance).
 
-![DBMS-Knob-Tuning](knob_tuning.png "Figure 1: Knob Tuning")
+![DBMS-Knob-Tuning](knob_tuning.png "Figure 1: Knob Tuning"){: width="30%"}
 
 As a common practice, experienced Database Administrators (DBAs) take great efforts (e.g., weeks or even months) to tune the target DBMS for a given workload (i.e., a workload is a set of SQL statements).
 
-![DBA-Tuning](human_tuning.png "Figure 2: Manual Tuning")
+![DBA-Tuning](human_tuning.png "Figure 2: Manual Tuning"){: width="30%"}
 
 However, manual tuning struggles to handle different workloads, hardware environments, especially in nowadays cloud environments. Thus Machine Learning (ML)-based tuning systems are proposed to search for well-performing knob configurations automatically. They can be classified into two main categories: Bayesian Optimization (BO)-based and Reinforcement Learning (RL)-based. The algorithm details are omitted here, please refer to [OtterTune](https://db.cs.cmu.edu/projects/ottertune/) and [CDBTune](https://dl.acm.org/doi/10.1145/3299869.3300085) for more details, which are the representative works for BO-based and RL-based methods, respectively. 
 
