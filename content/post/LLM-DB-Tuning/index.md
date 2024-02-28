@@ -1,9 +1,9 @@
 ---
 title: From DB-BERT to DB-BART and Beyond
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+subtitle: When everything else fails, read the instructions. Let's equip database tuning systems with the ability to read the manuals and use the gained information to enhance the knob tuning process.
 
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary: When everything else fails, read the instructions. Let's equip database tuning systems with the ability to read the manuals and use the gained information to enhance the knob tuning process.
 
 # Link this post with a project
 projects: []
@@ -23,7 +23,7 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: 'GPTuner'
   focal_point: ''
   placement: 2
   preview_only: false
