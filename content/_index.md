@@ -51,6 +51,7 @@ sections:
   #   design:
   #     columns: '1'
   - block: collection
+    id: recent-news
     content:
       title: Recent News
       text: |-
