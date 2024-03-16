@@ -57,6 +57,9 @@ sections:
       text: |-
         <ul>
           <li>
+            <strong>[2024/03/15]</strong> <a href="https://github.com/SolidLao/GPTuner">GPTuner</a> is <strong>accepted</strong> by Proceedings of Very Large Data Bases Conference (<strong>VLDB 2024</strong>) !
+          </li>
+          <li>
               <strong>[2024/02/27]</strong> A great virtual meeting with <a href="https://itrummer.github.io/">Prof. Immanuel Trummer</a>! Looking forward to <strong>pursuing my PhD</strong> in the database group at Cornell University in August!
           </li>
           <li>
