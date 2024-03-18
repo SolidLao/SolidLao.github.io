@@ -57,6 +57,9 @@ sections:
       text: |-
         <ul>
           <li>
+            <strong>[2024/03/16]</strong> <a href="https://www.youtube.com/watch?v=Hz5Zck-9TlA">GPTuner Demo</a> is <strong>accepted by SIGMOD 2024</strong>!
+          </li>
+          <li>
             <strong>[2024/03/15]</strong> <a href="https://github.com/SolidLao/GPTuner">GPTuner</a> is <strong>accepted by VLDB 2024</strong> !
           </li>
           <li>
@@ -66,7 +69,7 @@ sections:
               <strong>[2024/02/01]</strong> Excited to <strong>be admitted to the PhD program</strong> in <a href="https://www.cs.cornell.edu/">Computer Science at Cornell University</a>, starting in Fall 2024!
           </li>
           <li>
-              <strong>[2024/01/31]</strong> A video demonstration of GPTuner is available on <a href="">YouTube</a>! 
+              <strong>[2024/01/31]</strong> A video demonstration of GPTuner is available on <a href="https://www.youtube.com/watch?v=Hz5Zck-9TlA">YouTube</a>! 
           </li>
           <li>
               <strong>[2023/12/16]</strong> Congratulations! <a href="https://arxiv.org/abs/2311.03157">GPTuner</a> is under <strong>revision</strong> of Proceedings of Very Large Data Bases Conference (<strong>VLDB</strong>) ! 
