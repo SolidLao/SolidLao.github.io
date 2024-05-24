@@ -10,7 +10,7 @@ authors:
   - Yufei Li
   - Jianping Wang
   - Yunjia Zhang
-  - Zhiyuan Chen
+  - Zhiyuan Cheng
   - Wanghu Chen
   - Mingjie Tang
   - Jianguo Wang

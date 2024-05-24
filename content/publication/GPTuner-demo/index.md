@@ -10,7 +10,7 @@ authors:
   - Yufei Li
   - Jianping Wang
   - Yunjia Zhang
-  - Zhiyuan Chen
+  - Zhiyuan Cheng
   - Wanghu Chen
   - Yuanchun Zhou
   - Mingjie Tang
@@ -22,7 +22,7 @@ authors:
 #   - 'Equal contribution'
 
 date: '2024'
-doi: 'https://doi.org/10.48550/arXiv.2311.03157'
+doi: 'https://doi.org/10.1145/3626246.3654739'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024'
@@ -51,7 +51,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2311.03157'
+url_pdf: 'https://dl.acm.org/doi/10.1145/3626246.3654739'
 url_code: 'https://github.com/SolidLao/GPTuner'
 # url_dataset: ''
 # url_poster: ''
