@@ -57,7 +57,7 @@ sections:
       text: |-
         <ul>
           <li>
-            <strong>[2024/03/16]</strong> <a href="https://www.youtube.com/watch?v=Hz5Zck-9TlA">GPTuner Demo</a> is <strong>accepted by SIGMOD 2024</strong>!
+            <strong>[2024/03/16]</strong> <a href="https://dl.acm.org/doi/10.1145/3626246.3654739">GPTuner Demo</a> is <strong>accepted by SIGMOD 2024</strong>!
           </li>
           <li>
             <strong>[2024/03/15]</strong> <a href="https://github.com/SolidLao/GPTuner">GPTuner</a> is <strong>accepted by VLDB 2024</strong> !
