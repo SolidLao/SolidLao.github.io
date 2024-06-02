@@ -60,7 +60,7 @@ sections:
             <strong>[2024/03/16]</strong> <a href="https://dl.acm.org/doi/10.1145/3626246.3654739">GPTuner Demo</a> is <strong>accepted by SIGMOD 2024</strong>!
           </li>
           <li>
-            <strong>[2024/03/15]</strong> <a href="https://github.com/SolidLao/GPTuner">GPTuner</a> is <strong>accepted by VLDB 2024</strong> !
+            <strong>[2024/03/15]</strong> <a href="https://dl.acm.org/doi/abs/10.14778/3659437.3659449">GPTuner</a> is <strong>accepted by VLDB 2024</strong> !
           </li>
           <li>
               <strong>[2024/02/27]</strong> A great virtual meeting with <a href="https://itrummer.github.io/">Prof. Immanuel Trummer</a>! Looking forward to <strong>pursuing my PhD</strong> in the database group at Cornell University in August!
