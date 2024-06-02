@@ -21,7 +21,7 @@ authors:
 #   - 'Equal contribution'
 
 date: '2024'
-doi: 'https://doi.org/10.48550/arXiv.2311.03157'
+doi: 'https://dl.acm.org/doi/10.14778/3659437.3659449'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024'
@@ -50,7 +50,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2311.03157'
+url_pdf: 'https://dl.acm.org/doi/10.14778/3659437.3659449'
 url_code: 'https://github.com/SolidLao/GPTuner'
 # url_dataset: ''
 # url_poster: ''
