@@ -123,7 +123,7 @@ sections:
           description: |2-
             **Advised by**
 
-            * [Prof. Immanuel Trummer](https://www.cs.purdue.edu/homes/csjgwang/) and [Prof. Sainyam Galhotra](https://sainyamgalhotra.com/)
+            * [Prof. Immanuel Trummer](https://itrummer.github.io) and [Prof. Sainyam Galhotra](https://sainyamgalhotra.com/)
 
             **Course**
 
