@@ -117,14 +117,14 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Teaching Assistant
-         company: Cornell University, CS 4320/5320 Introduction to Database Systems, 24 Fall
-         description: |2-
+          company: Cornell University, CS 4320/5320 Introduction to Database Systems, 24 Fall
+          description: |2-
             **Advised by**
 
             * [Prof. Immanuel Trummer](https://www.cs.purdue.edu/homes/csjgwang/) and [Prof. Sainyam Galhotra](https://sainyamgalhotra.com/)
 
             **Course**
-            
+
             * This course is an introduction to relational database systems, NoSQL and NewSQL systems, and other tools for large-scale data analysis. Topics covered include the relational model, SQL, query processing and optimization, transactions, recovery, NoSQL and NewSQL systems, database design, as well as systems for graph, stream, and spatial data processing.
             * [Course Website](http://www.databaselecture.com/)
 
