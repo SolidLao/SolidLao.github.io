@@ -118,6 +118,8 @@ sections:
       items:
         - title: Teaching Assistant
           company: Cornell University, CS 4320/5320 Introduction to Database Systems, 24 Fall
+          date_start: '2024-08-21'
+          date_end: '2025-01-01'
           description: |2-
             **Advised by**
 
