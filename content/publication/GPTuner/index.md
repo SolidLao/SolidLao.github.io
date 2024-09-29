@@ -21,7 +21,7 @@ authors:
 #   - 'Equal contribution'
 
 date: '2024'
-doi: 'https://dl.acm.org/doi/10.14778/3659437.3659449'
+doi: '10.14778/3659437.3659449'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024'
