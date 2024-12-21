@@ -13,12 +13,15 @@ main:
   - name: Publications
     url: '#publications'
     weight: 30
+  - name: Awards
+    url: '#awards'
+    weight: 40
   - name: Experience
     url: '#experience'
-    weight: 40
+    weight: 50
   - name: Posts
     url: '#posts'
-    weight: 50
+    weight: 60
   # - name: Projects
   #   url: '#projects'
   #   weight: 30
