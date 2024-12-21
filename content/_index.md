@@ -105,6 +105,18 @@ sections:
     design:
       columns: '2'
       view: citation
+  - block: accomplishments
+    id: awards
+    content:
+      title: Awards
+      text: |-
+        <ul>
+          <li>
+            <strong>SIGMOD Research Highlight Award, 2025</strong>
+          </li>
+        </ul>
+    design:
+      columns: '2'
   - block: experience
     id: experience
     content:
