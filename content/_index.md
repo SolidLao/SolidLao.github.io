@@ -131,6 +131,19 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Teaching Assistant
+          company: Cornell University, 3110 Functional Programming, 25 Spring
+          date_start: '2025-01-22'
+          date_end: '2025-05-08'
+          description: |2-
+            **Advised by**
+
+            * [Prof. Anshuman Mohan](https://www.cs.cornell.edu/~amohan/) 
+
+            **Course**
+
+            * This course is about a functional programming language, OCaml: Correct + Efficient + Beautiful
+            * [Course Website](https://www.cs.cornell.edu/courses/cs3110/2025sp/)
+        - title: Teaching Assistant
           company: Cornell University, CS 4320/5320 Introduction to Database Systems, 24 Fall
           date_start: '2024-08-21'
           date_end: '2025-01-01'
