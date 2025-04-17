@@ -38,8 +38,7 @@ jobs:
             ${{ runner.os }}-hugomod-
 
       - id: pages
--       uses: actions/configure-pages@v3
-+       uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v5
 
       - name: Build with Hugo
         env:
@@ -49,8 +48,7 @@ jobs:
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
--       uses: actions/upload-pages-artifact@v2
-+       uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
@@ -64,5 +62,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
--       uses: actions/deploy-pages@v2
-+       uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4
