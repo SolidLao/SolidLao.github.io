@@ -73,7 +73,7 @@ sections:
       text: |-
         <ul>
           <li>
-            <strong>[2024/12/14]</strong> <a href="https://github.com/SolidLao/GPTuner">GPTuner</a> wins <strong style="color: red;">SIGMOD Research Highlight Award 2024!</strong> <a href="https://sigmodrecord.org/publications/sigmodRecord/2503/pdfs/02_editor_notes.pdf">10 papers selected!</a>
+            <strong>[2024/12/14]</strong> <a href="https://github.com/SolidLao/GPTuner">GPTuner</a> wins <strong style="color: red;">SIGMOD Research Highlight Award!</strong> <a href="https://sigmodrecord.org/publications/sigmodRecord/2503/pdfs/02_editor_notes.pdf">10 papers selected!</a>
           </li>
           <li>
             <strong>[2024/03/16]</strong> <a href="https://dl.acm.org/doi/10.1145/3626246.3654739">GPTuner Demo</a> is <strong>accepted by SIGMOD 2024!</strong>
