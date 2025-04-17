@@ -73,7 +73,7 @@ sections:
       text: |-
         <ul>
           <li>
-            <strong>[2024/12/14]</strong> <a href="https://github.com/SolidLao/GPTuner">GPTuner</a> wins <strong style="color: red;">SIGMOD Research Highlight Award 2025!</strong>
+            <strong>[2024/12/14]</strong> <a href="https://github.com/SolidLao/GPTuner">GPTuner</a> wins <strong style="color: red;">SIGMOD Research Highlight Award 2024!</strong> <strong>10 papers</strong> are selected <a href="https://sigmodrecord.org/publications/sigmodRecord/2503/pdfs/02_editor_notes.pdf">this year!</a>
           </li>
           <li>
             <strong>[2024/03/16]</strong> <a href="https://dl.acm.org/doi/10.1145/3626246.3654739">GPTuner Demo</a> is <strong>accepted by SIGMOD 2024!</strong>
@@ -82,7 +82,7 @@ sections:
             <strong>[2024/03/15]</strong> <a href="https://dl.acm.org/doi/abs/10.14778/3659437.3659449">GPTuner</a> is <strong>accepted by VLDB 2024!</strong>
           </li>
           <li>
-              <strong>[2024/01/31]</strong> A video demonstration of GPTuner is available on <a href="https://www.youtube.com/watch?v=Hz5Zck-9TlA">YouTube</a>! 
+              <strong>[2024/01/31]</strong> A video demonstration of GPTuner is available on <a href="https://www.youtube.com/watch?v=Hz5Zck-9TlA">YouTube!</a> 
           </li>
           <li>
               <strong>[2023/11/02]</strong> <a href="https://github.com/SolidLao/GPTuner">GPTuner</a> is open-sourced now! 
