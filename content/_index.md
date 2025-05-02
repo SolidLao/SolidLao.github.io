@@ -112,7 +112,7 @@ sections:
       text: |-
         <ul>
           <li>
-            <strong>SIGMOD Research Highlight Award, 2025</strong>
+            <strong>SIGMOD Research Highlight Award 2024</strong> <a href="https://sigmodrecord.org/publications/sigmodRecord/2503/pdfs/02_editor_notes.pdf">[link]</a>
           </li>
         </ul>
     design:
