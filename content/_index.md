@@ -73,6 +73,9 @@ sections:
       text: |-
         <ul>
           <li>
+            <strong>[2025/03/15]</strong> <a href="https://dl.acm.org/doi/10.1145/3722212.3725101">SQLBarber Demo</a> is <strong>accepted by SIGMOD 2025!</strong>
+          </li>
+          <li>
             <strong>[2024/12/14]</strong> <a href="https://github.com/SolidLao/GPTuner">GPTuner</a> wins <strong style="color: red;">SIGMOD Research Highlight Award!</strong> <a href="https://sigmodrecord.org/publications/sigmodRecord/2503/pdfs/02_editor_notes.pdf">10 papers selected!</a>
           </li>
           <li>
@@ -130,6 +133,19 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Research Assistant
+          company: Database Group at Cornell University
+          date_start: '2025-05-18'
+          date_end: 'present'
+          description: |2-
+              **Advised by**
+
+              * [Prof. Immanuel Trummer](https://itrummer.github.io)
+
+              **Projects**
+
+              * Customized and Realistic SQL Workload Generation with Large Language Model
+
         - title: Teaching Assistant
           company: Cornell University, 3110 Functional Programming, 25 Spring
           date_start: '2025-01-22'
