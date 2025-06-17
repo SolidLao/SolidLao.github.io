@@ -136,7 +136,7 @@ sections:
         - title: Research Assistant
           company: Database Group at Cornell University
           date_start: '2025-05-18'
-          date_end: 'present'
+          date_end: ''
           description: |2-
               **Advised by**
 
