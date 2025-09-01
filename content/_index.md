@@ -164,8 +164,8 @@ sections:
             * [Course Website](https://www.cs.cornell.edu/courses/cs3110/2025sp/)
         - title: Teaching Assistant
           company: Cornell University, CS 4320/5320 Introduction to Database Systems, 24 Fall, 25 Fall
-          date_start: '2024(25)-08-21'
-          date_end: '2025(26)-01-01'
+          date_start: '2024-08-21'
+          date_end: '2025-01-01'
           description: |2-
             **Advised by**
 
