@@ -73,6 +73,9 @@ sections:
       text: |-
         <ul>
           <li>
+            <strong>[2025/08/23]</strong> <a href="https://arxiv.org/abs/2503.05445">ToxicSQL</a> is <strong>accepted by SIGMOD 2026!</strong>
+          </li>
+          <li>
             <strong>[2025/03/15]</strong> <a href="https://dl.acm.org/doi/10.1145/3722212.3725101">SQLBarber Demo</a> is <strong>accepted by SIGMOD 2025!</strong>
           </li>
           <li>
@@ -160,9 +163,9 @@ sections:
             * This course is about a functional programming language, OCaml: Correct + Efficient + Beautiful
             * [Course Website](https://www.cs.cornell.edu/courses/cs3110/2025sp/)
         - title: Teaching Assistant
-          company: Cornell University, CS 4320/5320 Introduction to Database Systems, 24 Fall
-          date_start: '2024-08-21'
-          date_end: '2025-01-01'
+          company: Cornell University, CS 4320/5320 Introduction to Database Systems, 24 Fall, 25 Fall
+          date_start: '2024(25)-08-21'
+          date_end: '2025(26)-01-01'
           description: |2-
             **Advised by**
 
