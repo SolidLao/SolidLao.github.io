@@ -73,6 +73,9 @@ sections:
       text: |-
         <ul>
           <li>
+            <strong>[2025/10/04]</strong> <a href="https://arxiv.org/abs/2507.06192">SQLBarber</a> and <a href="https://arxiv.org/abs/2506.07675">QUITE</a> are <strong>under revision of SIGMOD 2026!</strong>
+          </li>
+          <li>
             <strong>[2025/08/23]</strong> <a href="https://arxiv.org/abs/2503.05445">ToxicSQL</a> is <strong>accepted by SIGMOD 2026!</strong>
           </li>
           <li>
