@@ -73,6 +73,9 @@ sections:
       text: |-
         <ul>
           <li>
+              <strong>[2025/11/24]</strong> <a href="https://arxiv.org/abs/2507.06192">SQLBarber</a> is accepted by <strong>SIGMOD 2026!</strong>
+          </li>
+          <li>
               <strong>[2025/11/03]</strong> <a href="https://sembench.ngrok.io/">SemBench</a> is available now! Let us go for Semantic Query Processing!
           </li>
           <li>
