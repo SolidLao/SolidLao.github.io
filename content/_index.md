@@ -76,7 +76,10 @@ sections:
               <strong>[2025/11/24]</strong> <a href="https://arxiv.org/abs/2507.06192">SQLBarber</a> is accepted by <strong>SIGMOD 2026!</strong>
           </li>
           <li>
-              <strong>[2025/11/03]</strong> <a href="https://sembench.ngrok.io/">SemBench</a> is available now! Let us go for Semantic Query Processing!
+              <strong>[2025/11/24]</strong> <a href="https://sembench.org/">SemBench</a> is under revision of <strong>VLDB 2026!</strong>
+          </li>
+          <li>
+              <strong>[2025/11/03]</strong> <a href="https://sembench.org/">SemBench</a> is available now! Let us go for Semantic Query Processing!
           </li>
           <li>
             <strong>[2025/10/04]</strong> <a href="https://arxiv.org/abs/2507.06192">SQLBarber</a> and <a href="https://arxiv.org/abs/2506.07675">QUITE</a> are <strong>under revision of SIGMOD 2026!</strong>
