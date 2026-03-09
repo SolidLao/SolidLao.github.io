@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jiale Lao - PhD Student at Cornell University</title>
+  <meta name="description" content="Jiale Lao is a PhD student in Computer Science at Cornell University, researching database systems, machine learning, and large language models.">
+  <meta name="author" content="Jiale Lao">
+  <meta property="og:title" content="Jiale Lao - PhD Student at Cornell University">
+  <meta property="og:description" content="PhD student in Computer Science at Cornell University, researching database systems, machine learning, and large language models.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner container">
+      <a href="#" class="nav-logo">JL</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="resume.html">CV</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="hero-greeting reveal">Hi, I'm</p>
+        <h1 class="hero-name reveal">Jiale Lao</h1>
+        <p class="hero-title reveal">PhD Student in Computer Science</p>
+        <p class="hero-affiliation reveal">
+          <a href="https://www.cornell.edu/" target="_blank" rel="noopener">Cornell University</a>
+        </p>
+        <p class="hero-desc reveal">
+          I research how to leverage large language models to enhance the efficiency, usability, and generality of database systems.
+        </p>
+        <div class="hero-links reveal">
+          <a href="mailto:solidlao.jiale@gmail.com" class="btn btn-primary" aria-label="Email">
+            <i class="fas fa-envelope"></i> Email
+          </a>
+          <a href="https://scholar.google.com/citations?user=PccHINcAAAAJ&hl=en" target="_blank" rel="noopener" class="btn btn-outline" aria-label="Google Scholar">
+            <i class="ai ai-google-scholar"></i> Scholar
+          </a>
+          <a href="https://github.com/SolidLao" target="_blank" rel="noopener" class="btn btn-outline" aria-label="GitHub">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="resume.html" class="btn btn-outline" aria-label="CV">
+            <i class="fas fa-file-alt"></i> CV
+          </a>
+        </div>
+      </div>
+      <div class="hero-image reveal">
+        <div class="avatar-wrapper">
+          <img src="assets/images/avatar.jpg" alt="Jiale Lao" class="avatar" width="280" height="280">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="about-content reveal">
+        <p>
+          I am a PhD student in Computer Science at <a href="https://www.cornell.edu/" target="_blank" rel="noopener">Cornell University</a>, advised by Professor <a href="https://itrummer.github.io/" target="_blank" rel="noopener">Immanuel Trummer</a>. My research focuses on leveraging advanced techniques from Natural Language Processing (e.g., Large Language Models) to enhance the efficiency, usability, and generality of database systems.
+        </p>
+        <p>
+          During my time at <a href="https://www.scu.edu.cn/" target="_blank" rel="noopener">Sichuan University</a> as a B.Eng student, I was fortunate to be advised by Professor <a href="https://merlintang.github.io/" target="_blank" rel="noopener">Mingjie Tang</a> and Professor <a href="https://www.cs.purdue.edu/homes/csjgwang/" target="_blank" rel="noopener">Jianguo Wang</a> from <a href="https://www.purdue.edu/" target="_blank" rel="noopener">Purdue University</a>, focusing on utilizing machine learning techniques to optimize database performance.
+        </p>
+        <p>
+          I have published multiple papers in SIGMOD and VLDB conferences and received the <strong>SIGMOD Research Highlight Award 2024</strong>.
+        </p>
+        <div class="interests">
+          <span class="tag">Database Systems</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Large Language Models</span>
+          <span class="tag">Query Optimization</span>
+          <span class="tag">DB Tuning</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News Section -->
+  <section class="section section-alt" id="news">
+    <div class="container">
+      <h2 class="section-title reveal">News</h2>
+      <div class="news-list">
+        <div class="news-item reveal">
+          <span class="news-date">Nov 2025</span>
+          <span class="news-text"><a href="https://arxiv.org/abs/2507.06192" target="_blank" rel="noopener">SQLBarber</a> is accepted by <strong>SIGMOD 2026</strong>!</span>
+        </div>
+        <div class="news-item reveal">
+          <span class="news-date">Nov 2025</span>
+          <span class="news-text"><a href="https://sembench.org/" target="_blank" rel="noopener">SemBench</a> is under revision of <strong>VLDB 2026</strong>!</span>
+        </div>
+        <div class="news-item reveal">
+          <span class="news-date">Nov 2025</span>
+          <span class="news-text"><a href="https://sembench.org/" target="_blank" rel="noopener">SemBench</a> is available now! Let us go for Semantic Query Processing!</span>
+        </div>
+        <div class="news-item reveal">
+          <span class="news-date">Aug 2025</span>
+          <span class="news-text"><a href="https://arxiv.org/abs/2503.05445" target="_blank" rel="noopener">ToxicSQL</a> is accepted by <strong>SIGMOD 2026</strong>!</span>
+        </div>
+        <div class="news-item reveal">
+          <span class="news-date">Mar 2025</span>
+          <span class="news-text"><a href="https://dl.acm.org/doi/10.1145/3722212.3725101" target="_blank" rel="noopener">SQLBarber Demo</a> is accepted by <strong>SIGMOD 2025</strong>!</span>
+        </div>
+        <div class="news-item reveal">
+          <span class="news-date">Dec 2024</span>
+          <span class="news-text"><a href="https://github.com/SolidLao/GPTuner" target="_blank" rel="noopener">GPTuner</a> wins <strong class="highlight-award">SIGMOD Research Highlight Award</strong>! <a href="https://sigmodrecord.org/publications/sigmodRecord/2503/pdfs/02_editor_notes.pdf" target="_blank" rel="noopener">[10 papers selected]</a></span>
+        </div>
+        <div class="news-item reveal">
+          <span class="news-date">Mar 2024</span>
+          <span class="news-text"><a href="https://dl.acm.org/doi/10.1145/3626246.3654739" target="_blank" rel="noopener">GPTuner Demo</a> is accepted by <strong>SIGMOD 2024</strong>!</span>
+        </div>
+        <div class="news-item reveal">
+          <span class="news-date">Mar 2024</span>
+          <span class="news-text"><a href="https://dl.acm.org/doi/abs/10.14778/3659437.3659449" target="_blank" rel="noopener">GPTuner</a> is accepted by <strong>VLDB 2024</strong>!</span>
+        </div>
+        <div class="news-item reveal">
+          <span class="news-date">Jan 2024</span>
+          <span class="news-text">A video demonstration of GPTuner is available on <a href="https://www.youtube.com/watch?v=Hz5Zck-9TlA" target="_blank" rel="noopener">YouTube</a>!</span>
+        </div>
+        <div class="news-item reveal">
+          <span class="news-date">Nov 2023</span>
+          <span class="news-text"><a href="https://github.com/SolidLao/GPTuner" target="_blank" rel="noopener">GPTuner</a> is open-sourced now!</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications Section -->
+  <section class="section" id="publications">
+    <div class="container">
+      <h2 class="section-title reveal">Publications</h2>
+
+      <div class="pub-card reveal">
+        <div class="pub-venue-badge">SIGMOD 2026</div>
+        <h3 class="pub-title">SQLBarber: A System Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads</h3>
+        <p class="pub-authors"><strong>Jiale Lao</strong>, Immanuel Trummer</p>
+        <p class="pub-venue">Proceedings of ACM Conference on Management of Data (SIGMOD), 2026</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2507.06192" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+          <a href="https://github.com/SolidLao/SQLBarber" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+        </div>
+      </div>
+
+      <div class="pub-card reveal">
+        <div class="pub-venue-badge">SIGMOD 2026</div>
+        <h3 class="pub-title">Are Your LLM-based Text-to-SQL Models Secure? Exploring SQL Injection via Backdoor Attacks</h3>
+        <p class="pub-authors">Meiyu Lin, Haichuan Zhang, <strong>Jiale Lao</strong>, Renyuan Li, Yuanchun Zhou, Carl Yang, Yang Cao, Mingjie Tang</p>
+        <p class="pub-venue">Proceedings of ACM Conference on Management of Data (SIGMOD), 2026</p>
+        <div class="pub-links">
+          <a href="https://dl.acm.org/doi/pdf/10.1145/3769762" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+          <a href="https://github.com/isoflurane/ToxicSQL" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+        </div>
+      </div>
+
+      <div class="pub-card reveal">
+        <div class="pub-venue-badge">SIGMOD 2025</div>
+        <h3 class="pub-title">Demonstrating SQLBarber: Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads</h3>
+        <p class="pub-authors"><strong>Jiale Lao</strong>, Immanuel Trummer</p>
+        <p class="pub-venue">Proceedings of ACM Conference on Management of Data (SIGMOD), 2025</p>
+        <div class="pub-links">
+          <a href="https://dl.acm.org/doi/10.1145/3722212.3725101" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+          <a href="https://youtu.be/qOuAKVXXcdM" target="_blank" rel="noopener"><i class="fas fa-video"></i> Video</a>
+        </div>
+      </div>
+
+      <div class="pub-card reveal">
+        <div class="pub-venue-badge award">SIGMOD Research Highlight</div>
+        <h3 class="pub-title">GPTuner: An LLM-Based Database Tuning System</h3>
+        <p class="pub-authors"><strong>Jiale Lao</strong>, Yibo Wang, Yufei Li, Jianping Wang, Yunjia Zhang, Zhiyuan Cheng, Wanghu Chen, Mingjie Tang, Jianguo Wang</p>
+        <p class="pub-venue">Proceedings of ACM Conference on Management of Data (SIGMOD), 2025 &mdash; <strong class="highlight-award">SIGMOD Research Highlight Award 2024</strong></p>
+        <div class="pub-links">
+          <a href="https://doi.org/10.1145/3733620.3733641" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+          <a href="https://github.com/SolidLao/GPTuner" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+          <a href="https://www.youtube.com/watch?v=Hz5Zck-9TlA" target="_blank" rel="noopener"><i class="fas fa-video"></i> Video</a>
+        </div>
+      </div>
+
+      <div class="pub-card reveal">
+        <div class="pub-venue-badge">VLDB 2024</div>
+        <h3 class="pub-title">GPTuner: A Manual-Reading Database Tuning System</h3>
+        <p class="pub-authors"><strong>Jiale Lao</strong>, Yibo Wang, Yufei Li, Jianping Wang, Yunjia Zhang, Zhiyuan Cheng, Wanghu Chen, Mingjie Tang, Jianguo Wang</p>
+        <p class="pub-venue">Proceedings of Very Large Data Bases Conference (VLDB), 2024</p>
+        <div class="pub-links">
+          <a href="https://dl.acm.org/doi/10.14778/3659437.3659449" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+          <a href="https://github.com/SolidLao/GPTuner" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+          <a href="https://www.youtube.com/watch?v=Hz5Zck-9TlA" target="_blank" rel="noopener"><i class="fas fa-video"></i> Video</a>
+        </div>
+      </div>
+
+      <div class="pub-card reveal">
+        <div class="pub-venue-badge">SIGMOD 2024</div>
+        <h3 class="pub-title">A Demonstration of GPTuner: A GPT-Based Manual-Reading Database Tuning System</h3>
+        <p class="pub-authors"><strong>Jiale Lao</strong>, Yibo Wang, Yufei Li, Jianping Wang, Yunjia Zhang, Zhiyuan Cheng, Wanghu Chen, Yuanchun Zhou, Mingjie Tang, Jianguo Wang</p>
+        <p class="pub-venue">Proceedings of ACM Conference on Management of Data (SIGMOD), 2024</p>
+        <div class="pub-links">
+          <a href="https://dl.acm.org/doi/10.1145/3626246.3654739" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+          <a href="https://github.com/SolidLao/GPTuner" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+          <a href="https://www.youtube.com/watch?v=Hz5Zck-9TlA" target="_blank" rel="noopener"><i class="fas fa-video"></i> Video</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Awards Section -->
+  <section class="section section-alt" id="awards">
+    <div class="container">
+      <h2 class="section-title reveal">Awards</h2>
+      <div class="award-card reveal">
+        <div class="award-icon"><i class="fas fa-trophy"></i></div>
+        <div class="award-info">
+          <h3>SIGMOD Research Highlight Award 2024</h3>
+          <p>For the paper "GPTuner: A Manual-Reading Database Tuning System" &mdash; <a href="https://sigmodrecord.org/publications/sigmodRecord/2503/pdfs/02_editor_notes.pdf" target="_blank" rel="noopener">10 papers selected worldwide</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section-title reveal">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">May 2025 &mdash; Present</span>
+            <h3>Research Assistant</h3>
+            <p class="timeline-org">Database Group, Cornell University</p>
+            <p>Advised by <a href="https://itrummer.github.io" target="_blank" rel="noopener">Prof. Immanuel Trummer</a></p>
+            <p>Customized and Realistic SQL Workload Generation with Large Language Model</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jan 2025 &mdash; May 2025</span>
+            <h3>Teaching Assistant</h3>
+            <p class="timeline-org">Cornell University &mdash; CS 3110 Functional Programming</p>
+            <p>Advised by <a href="https://www.cs.cornell.edu/~amohan/" target="_blank" rel="noopener">Prof. Anshuman Mohan</a></p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Aug 2024 &mdash; Jan 2025</span>
+            <h3>Teaching Assistant</h3>
+            <p class="timeline-org">Cornell University &mdash; CS 4320/5320 Introduction to Database Systems</p>
+            <p>Advised by <a href="https://itrummer.github.io" target="_blank" rel="noopener">Prof. Immanuel Trummer</a> and <a href="https://sainyamgalhotra.com/" target="_blank" rel="noopener">Prof. Sainyam Galhotra</a></p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Apr 2023 &mdash; Aug 2024</span>
+            <h3>Research Assistant</h3>
+            <p class="timeline-org">Database Systems Group, Purdue University</p>
+            <p>Advised by <a href="https://www.cs.purdue.edu/homes/csjgwang/" target="_blank" rel="noopener">Prof. Jianguo Wang</a></p>
+            <p>Automatic Optimization of Database with LLM; Distance Indexing via GNN</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Oct 2022 &mdash; Aug 2024</span>
+            <h3>Research Assistant</h3>
+            <p class="timeline-org">AI and System Lab, Sichuan University</p>
+            <p>Advised by <a href="https://merlintang.github.io/" target="_blank" rel="noopener">Prof. Mingjie Tang</a></p>
+            <p>Automatic Optimization of Database with LLM; Distance Indexing via GNN</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h3>PhD in Computer Science</h3>
+          <p class="edu-school">Cornell University</p>
+          <p class="edu-year">2024 &mdash; Present</p>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h3>B.Eng in Software Engineering</h3>
+          <p class="edu-school">Sichuan University</p>
+          <p class="edu-year">2020 &mdash; 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Jiale Lao. Built from scratch.</p>
+        <div class="footer-links">
+          <a href="mailto:solidlao.jiale@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://scholar.google.com/citations?user=PccHINcAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://github.com/SolidLao" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Jiale Lao</title>
+  <meta name="description" content="Curriculum Vitae of Jiale Lao, PhD student at Cornell University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner container">
+      <a href="index.html" class="nav-logo">JL</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#news">News</a></li>
+        <li><a href="index.html#publications">Publications</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="resume.html" class="active">CV</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- CV Page -->
+  <main class="cv-page">
+    <div class="container cv-container">
+
+      <!-- Print / PDF button -->
+      <div class="cv-actions no-print">
+        <button onclick="window.print()" class="btn btn-primary"><i class="fas fa-print"></i> Print / Save as PDF</button>
+        <a href="index.html" class="btn btn-outline"><i class="fas fa-arrow-left"></i> Back to Home</a>
+      </div>
+
+      <!-- CV Header -->
+      <header class="cv-header">
+        <h1>Jiale Lao</h1>
+        <p class="cv-subtitle">PhD Student in Computer Science &mdash; Cornell University</p>
+        <div class="cv-contact">
+          <span><i class="fas fa-envelope"></i> <a href="mailto:solidlao.jiale@gmail.com">solidlao.jiale@gmail.com</a></span>
+          <span><i class="fab fa-github"></i> <a href="https://github.com/SolidLao" target="_blank" rel="noopener">SolidLao</a></span>
+          <span><i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?user=PccHINcAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></span>
+        </div>
+      </header>
+
+      <!-- Research Interests -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Research Interests</h2>
+        <p>Database Systems, Machine Learning, Large Language Models, Query Optimization, Database Tuning</p>
+      </section>
+
+      <!-- Education -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Education</h2>
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>Cornell University</h3>
+            <span class="cv-entry-date">2024 &mdash; Present</span>
+          </div>
+          <p>PhD in Computer Science</p>
+          <p>Advisor: <a href="https://itrummer.github.io/" target="_blank" rel="noopener">Prof. Immanuel Trummer</a></p>
+        </div>
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>Sichuan University</h3>
+            <span class="cv-entry-date">2020 &mdash; 2024</span>
+          </div>
+          <p>B.Eng in Software Engineering</p>
+          <p>Advisors: <a href="https://merlintang.github.io/" target="_blank" rel="noopener">Prof. Mingjie Tang</a>, <a href="https://www.cs.purdue.edu/homes/csjgwang/" target="_blank" rel="noopener">Prof. Jianguo Wang</a> (Purdue University)</p>
+        </div>
+      </section>
+
+      <!-- Publications -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Publications</h2>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>SQLBarber: A System Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads</h3>
+            <span class="cv-entry-date">SIGMOD 2026</span>
+          </div>
+          <p><strong>Jiale Lao</strong>, Immanuel Trummer</p>
+          <p class="cv-pub-links">
+            <a href="https://arxiv.org/abs/2507.06192" target="_blank" rel="noopener">[Paper]</a>
+            <a href="https://github.com/SolidLao/SQLBarber" target="_blank" rel="noopener">[Code]</a>
+          </p>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>Are Your LLM-based Text-to-SQL Models Secure? Exploring SQL Injection via Backdoor Attacks</h3>
+            <span class="cv-entry-date">SIGMOD 2026</span>
+          </div>
+          <p>Meiyu Lin, Haichuan Zhang, <strong>Jiale Lao</strong>, Renyuan Li, Yuanchun Zhou, Carl Yang, Yang Cao, Mingjie Tang</p>
+          <p class="cv-pub-links">
+            <a href="https://dl.acm.org/doi/pdf/10.1145/3769762" target="_blank" rel="noopener">[Paper]</a>
+            <a href="https://github.com/isoflurane/ToxicSQL" target="_blank" rel="noopener">[Code]</a>
+          </p>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>Demonstrating SQLBarber: Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads</h3>
+            <span class="cv-entry-date">SIGMOD 2025</span>
+          </div>
+          <p><strong>Jiale Lao</strong>, Immanuel Trummer</p>
+          <p class="cv-pub-links">
+            <a href="https://dl.acm.org/doi/10.1145/3722212.3725101" target="_blank" rel="noopener">[Paper]</a>
+            <a href="https://youtu.be/qOuAKVXXcdM" target="_blank" rel="noopener">[Video]</a>
+          </p>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>GPTuner: An LLM-Based Database Tuning System</h3>
+            <span class="cv-entry-date">SIGMOD 2025 <span class="cv-award">Research Highlight Award</span></span>
+          </div>
+          <p><strong>Jiale Lao</strong>, Yibo Wang, Yufei Li, Jianping Wang, Yunjia Zhang, Zhiyuan Cheng, Wanghu Chen, Mingjie Tang, Jianguo Wang</p>
+          <p class="cv-pub-links">
+            <a href="https://doi.org/10.1145/3733620.3733641" target="_blank" rel="noopener">[Paper]</a>
+            <a href="https://github.com/SolidLao/GPTuner" target="_blank" rel="noopener">[Code]</a>
+            <a href="https://www.youtube.com/watch?v=Hz5Zck-9TlA" target="_blank" rel="noopener">[Video]</a>
+          </p>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>GPTuner: A Manual-Reading Database Tuning System</h3>
+            <span class="cv-entry-date">VLDB 2024</span>
+          </div>
+          <p><strong>Jiale Lao</strong>, Yibo Wang, Yufei Li, Jianping Wang, Yunjia Zhang, Zhiyuan Cheng, Wanghu Chen, Mingjie Tang, Jianguo Wang</p>
+          <p class="cv-pub-links">
+            <a href="https://dl.acm.org/doi/10.14778/3659437.3659449" target="_blank" rel="noopener">[Paper]</a>
+            <a href="https://github.com/SolidLao/GPTuner" target="_blank" rel="noopener">[Code]</a>
+            <a href="https://www.youtube.com/watch?v=Hz5Zck-9TlA" target="_blank" rel="noopener">[Video]</a>
+          </p>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>A Demonstration of GPTuner: A GPT-Based Manual-Reading Database Tuning System</h3>
+            <span class="cv-entry-date">SIGMOD 2024</span>
+          </div>
+          <p><strong>Jiale Lao</strong>, Yibo Wang, Yufei Li, Jianping Wang, Yunjia Zhang, Zhiyuan Cheng, Wanghu Chen, Yuanchun Zhou, Mingjie Tang, Jianguo Wang</p>
+          <p class="cv-pub-links">
+            <a href="https://dl.acm.org/doi/10.1145/3626246.3654739" target="_blank" rel="noopener">[Paper]</a>
+            <a href="https://github.com/SolidLao/GPTuner" target="_blank" rel="noopener">[Code]</a>
+            <a href="https://www.youtube.com/watch?v=Hz5Zck-9TlA" target="_blank" rel="noopener">[Video]</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- Awards -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Awards</h2>
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>SIGMOD Research Highlight Award</h3>
+            <span class="cv-entry-date">2024</span>
+          </div>
+          <p>For "GPTuner: A Manual-Reading Database Tuning System" &mdash; 10 papers selected worldwide</p>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Research Experience</h2>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>Research Assistant &mdash; Cornell University</h3>
+            <span class="cv-entry-date">May 2025 &mdash; Present</span>
+          </div>
+          <p>Database Group. Advised by <a href="https://itrummer.github.io" target="_blank" rel="noopener">Prof. Immanuel Trummer</a></p>
+          <p>Customized and Realistic SQL Workload Generation with Large Language Model</p>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>Research Assistant &mdash; Purdue University</h3>
+            <span class="cv-entry-date">Apr 2023 &mdash; Aug 2024</span>
+          </div>
+          <p>Database Systems Group. Advised by <a href="https://www.cs.purdue.edu/homes/csjgwang/" target="_blank" rel="noopener">Prof. Jianguo Wang</a></p>
+          <p>Automatic Optimization of Database with LLM; Distance Indexing via GNN</p>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>Research Assistant &mdash; Sichuan University</h3>
+            <span class="cv-entry-date">Oct 2022 &mdash; Aug 2024</span>
+          </div>
+          <p>AI and System Lab. Advised by <a href="https://merlintang.github.io/" target="_blank" rel="noopener">Prof. Mingjie Tang</a></p>
+          <p>Automatic Optimization of Database with LLM; Distance Indexing via GNN</p>
+        </div>
+      </section>
+
+      <!-- Teaching -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Teaching Experience</h2>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>TA &mdash; CS 3110 Functional Programming</h3>
+            <span class="cv-entry-date">Spring 2025</span>
+          </div>
+          <p>Cornell University. Instructor: <a href="https://www.cs.cornell.edu/~amohan/" target="_blank" rel="noopener">Prof. Anshuman Mohan</a></p>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <h3>TA &mdash; CS 4320/5320 Introduction to Database Systems</h3>
+            <span class="cv-entry-date">Fall 2024, Fall 2025</span>
+          </div>
+          <p>Cornell University. Instructors: <a href="https://itrummer.github.io" target="_blank" rel="noopener">Prof. Immanuel Trummer</a>, <a href="https://sainyamgalhotra.com/" target="_blank" rel="noopener">Prof. Sainyam Galhotra</a></p>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Jiale Lao. Built from scratch.</p>
+        <div class="footer-links">
+          <a href="mailto:solidlao.jiale@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://scholar.google.com/citations?user=PccHINcAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://github.com/SolidLao" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

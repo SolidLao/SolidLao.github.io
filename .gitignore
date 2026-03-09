@@ -1,10 +1,7 @@
-# IDEs
+.DS_Store
+Thumbs.db
+.vscode/
 .idea/
-
-# Hugo
-resources/
-public/
-jsconfig.json
-node_modules/
-go.sum
-.hugo_build.lock
+*.swp
+*.swo
+*~
