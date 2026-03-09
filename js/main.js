@@ -57,16 +57,34 @@
   reveals.forEach(el => observer.observe(el));
 })();
 
-// Navbar background on scroll
+// Navbar background on scroll + scroll-to-top visibility
 (function () {
   const nav = document.getElementById('nav');
+  const scrollTop = document.getElementById('scroll-top');
+
   window.addEventListener('scroll', () => {
     if (window.scrollY > 20) {
       nav.classList.add('scrolled');
     } else {
       nav.classList.remove('scrolled');
     }
+
+    // Show scroll-to-top after scrolling past the hero
+    if (scrollTop) {
+      if (window.scrollY > window.innerHeight * 0.5) {
+        scrollTop.classList.add('visible');
+      } else {
+        scrollTop.classList.remove('visible');
+      }
+    }
   });
+
+  // Scroll to top on click
+  if (scrollTop) {
+    scrollTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 })();
 
 // Active nav link on scroll
