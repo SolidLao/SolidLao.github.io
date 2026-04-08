@@ -94,8 +94,6 @@
           <span class="tag">Database Systems</span>
           <span class="tag">Machine Learning</span>
           <span class="tag">Large Language Models</span>
-          <span class="tag">Query Optimization</span>
-          <span class="tag">DB Tuning</span>
         </div>
       </div>
 
@@ -124,6 +122,10 @@
       <h2 class="section-title reveal">News</h2>
       <div class="news-list">
         <div class="news-item reveal">
+          <span class="news-date">Apr 2026</span>
+          <span class="news-text"><a href="https://arxiv.org/abs/2601.04498" target="_blank" rel="noopener">IGenBench</a> is accepted by <strong>ACL 2026</strong>!</span>
+        </div>
+        <div class="news-item reveal">
           <span class="news-date">Mar 2026</span>
           <span class="news-text"><a href="https://sembench.org/" target="_blank" rel="noopener">SemBench</a> has been accepted to <strong>VLDB 2026</strong>!</span>
         </div>
@@ -133,7 +135,7 @@
         </div>
         <div class="news-item reveal">
           <span class="news-date">Nov 2025</span>
-          <span class="news-text"><a href="https://arxiv.org/abs/2507.06192" target="_blank" rel="noopener">SQLBarber</a> is accepted by <strong>SIGMOD 2026</strong>!</span>
+          <span class="news-text"><a href="https://dl.acm.org/doi/10.1145/3786699" target="_blank" rel="noopener">SQLBarber</a> is accepted by <strong>SIGMOD 2026</strong>!</span>
         </div>
         <div class="news-item reveal">
           <span class="news-date">Nov 2025</span>
@@ -168,10 +170,22 @@
     <div class="container">
       <h2 class="section-title reveal">Publications</h2>
 
-      <!-- 2026 -->
-      <h3 class="pub-year reveal">2026</h3>
+      <!-- Filters -->
+      <div class="pub-filters reveal" id="pub-filters">
+        <div class="pub-filter-group">
+          <span class="pub-filter-label">By Year</span>
+          <div class="pub-filter-chips" data-filter-type="year"></div>
+        </div>
+        <div class="pub-filter-group">
+          <span class="pub-filter-label">By Venue</span>
+          <div class="pub-filter-chips" data-filter-type="venue"></div>
+        </div>
+      </div>
 
-      <div class="pub-card reveal">
+      <!-- 2026 -->
+      <h3 class="pub-year reveal" data-year="2026">2026</h3>
+
+      <div class="pub-card reveal" data-year="2026" data-venue="Preprint">
         <div class="pub-venue-badge">Preprint</div>
         <h3 class="pub-title">GenDB: The Next Generation of Query Processing -- Synthesized, Not Engineered</h3>
         <p class="pub-authors"><strong>Jiale Lao</strong>, Immanuel Trummer</p>
@@ -179,21 +193,52 @@
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2603.02081" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
           <a href="https://solidlao.github.io/GenDB/" target="_blank" rel="noopener"><i class="fas fa-globe"></i> Website</a>
+          <a href="https://solidlao.github.io/GenDB/demo/" target="_blank" rel="noopener"><i class="fas fa-play-circle"></i> Demo</a>
         </div>
       </div>
 
-      <div class="pub-card reveal">
+      <div class="pub-card reveal" data-year="2026" data-venue="Preprint">
         <div class="pub-venue-badge">Preprint</div>
+        <h3 class="pub-title">ViviDoc: Generating Interactive Documents through Human-Agent Collaboration</h3>
+        <p class="pub-authors">Yinghao Tang, Yupeng Xie, Yingchaojie Feng, Tingfeng Lan, <strong>Jiale Lao</strong>, Yue Cheng, Wei Chen</p>
+        <p class="pub-venue">arXiv preprint, 2026</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2603.27991" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+        </div>
+      </div>
+
+      <div class="pub-card reveal" data-year="2026" data-venue="Preprint">
+        <div class="pub-venue-badge">Preprint</div>
+        <h3 class="pub-title">WAter: A Workload-Adaptive Knob Tuning System based on Workload Compression</h3>
+        <p class="pub-authors">Yibo Wang, <strong>Jiale Lao</strong>, Chen Zhang, Cehua Yang, Jianguo Wang, Mingjie Tang</p>
+        <p class="pub-venue">arXiv preprint, 2026</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2603.28809" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+        </div>
+      </div>
+
+      <div class="pub-card reveal" data-year="2026" data-venue="Preprint">
+        <div class="pub-venue-badge">Preprint</div>
+        <h3 class="pub-title">Can You Trust the Vectors in Your Vector Database? Black-Hole Attack from Embedding Space Defects</h3>
+        <p class="pub-authors">Hanxi Li, Jianan Zhou, <strong>Jiale Lao</strong>, Yibo Wang, Zhengmao Ye, Yang Cao, Junfen Wang, Mingjie Tang</p>
+        <p class="pub-venue">arXiv preprint, 2026</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2604.05480" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+        </div>
+      </div>
+
+      <div class="pub-card reveal" data-year="2026" data-venue="ACL">
+        <div class="pub-venue-badge">ACL</div>
         <h3 class="pub-title">IGenBench: Benchmarking the Reliability of Text-to-Infographic Generation</h3>
         <p class="pub-authors">Yinghao Tang, Xueding Liu, Boyuan Zhang, Tingfeng Lan, Yupeng Xie, <strong>Jiale Lao</strong>, Yiyao Wang, Haoxuan Li, Tingting Gao, Bo Pan, Luoxuan Weng, Xiuqi Huang, Minfeng Zhu, Yingchaojie Feng, Yuyu Luo, Wei Chen</p>
-        <p class="pub-venue">arXiv preprint, 2026</p>
+        <p class="pub-venue">Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL), 2026</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2601.04498" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
           <a href="https://igen-bench.vercel.app/" target="_blank" rel="noopener"><i class="fas fa-globe"></i> Website</a>
         </div>
       </div>
 
-      <div class="pub-card reveal">
+      <div class="pub-card reveal" data-year="2026" data-venue="VLDB">
         <div class="pub-venue-badge">VLDB</div>
         <h3 class="pub-title">SemBench: A Benchmark for Semantic Query Processing Engines</h3>
         <p class="pub-authors"><strong>Jiale Lao</strong>, Andreas Zimmerer, Olga Ovcharenko, Tianji Cong, Matthew Russo, Gerardo Vitagliano, Michael Cochez, Fatma &Ouml;zcan, Gautam Gupta, Thibaud Hottelier, H. V. Jagadish, Kris Kissel, Sebastian Schelter, Andreas Kipf, Immanuel Trummer</p>
@@ -204,18 +249,18 @@
         </div>
       </div>
 
-      <div class="pub-card reveal">
+      <div class="pub-card reveal" data-year="2026" data-venue="SIGMOD">
         <div class="pub-venue-badge">SIGMOD</div>
         <h3 class="pub-title">SQLBarber: A System Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads</h3>
         <p class="pub-authors"><strong>Jiale Lao</strong>, Immanuel Trummer</p>
         <p class="pub-venue">Proceedings of ACM Conference on Management of Data (SIGMOD), 2026</p>
         <div class="pub-links">
-          <a href="https://arxiv.org/abs/2507.06192" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+          <a href="https://dl.acm.org/doi/10.1145/3786699" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
           <a href="https://github.com/SolidLao/SQLBarber" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
         </div>
       </div>
 
-      <div class="pub-card reveal">
+      <div class="pub-card reveal" data-year="2026" data-venue="SIGMOD">
         <div class="pub-venue-badge">SIGMOD</div>
         <h3 class="pub-title">Are Your LLM-based Text-to-SQL Models Secure? Exploring SQL Injection via Backdoor Attacks</h3>
         <p class="pub-authors">Meiyu Lin, Haichuan Zhang, <strong>Jiale Lao</strong>, Renyuan Li, Yuanchun Zhou, Carl Yang, Yang Cao, Mingjie Tang</p>
@@ -227,9 +272,9 @@
       </div>
 
       <!-- 2025 -->
-      <h3 class="pub-year reveal">2025</h3>
+      <h3 class="pub-year reveal" data-year="2025">2025</h3>
 
-      <div class="pub-card reveal">
+      <div class="pub-card reveal" data-year="2025" data-venue="Preprint">
         <div class="pub-venue-badge">Preprint</div>
         <h3 class="pub-title">QUITE: A Query Rewrite System Beyond Rules with LLM Agents</h3>
         <p class="pub-authors">Yuyang Song, Hanxu Yan, <strong>Jiale Lao</strong>, Yibo Wang, Yufei Li, Yuanchun Zhou, Jianguo Wang, Mingjie Tang</p>
@@ -239,7 +284,7 @@
         </div>
       </div>
 
-      <div class="pub-card reveal">
+      <div class="pub-card reveal" data-year="2025" data-venue="SIGMOD">
         <div class="pub-venue-badge">SIGMOD</div>
         <h3 class="pub-title">Demonstrating SQLBarber: Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads</h3>
         <p class="pub-authors"><strong>Jiale Lao</strong>, Immanuel Trummer</p>
@@ -250,7 +295,7 @@
         </div>
       </div>
 
-      <div class="pub-card reveal">
+      <div class="pub-card reveal" data-year="2025" data-venue="SIGMOD">
         <div class="pub-venue-badge award">SIGMOD Research Highlight</div>
         <h3 class="pub-title">GPTuner: An LLM-Based Database Tuning System</h3>
         <p class="pub-authors"><strong>Jiale Lao</strong>, Yibo Wang, Yufei Li, Jianping Wang, Yunjia Zhang, Zhiyuan Cheng, Wanghu Chen, Mingjie Tang, Jianguo Wang</p>
@@ -263,9 +308,9 @@
       </div>
 
       <!-- 2024 -->
-      <h3 class="pub-year reveal">2024</h3>
+      <h3 class="pub-year reveal" data-year="2024">2024</h3>
 
-      <div class="pub-card reveal">
+      <div class="pub-card reveal" data-year="2024" data-venue="VLDB">
         <div class="pub-venue-badge">VLDB</div>
         <h3 class="pub-title">GPTuner: A Manual-Reading Database Tuning System</h3>
         <p class="pub-authors"><strong>Jiale Lao</strong>, Yibo Wang, Yufei Li, Jianping Wang, Yunjia Zhang, Zhiyuan Cheng, Wanghu Chen, Mingjie Tang, Jianguo Wang</p>
@@ -277,7 +322,7 @@
         </div>
       </div>
 
-      <div class="pub-card reveal">
+      <div class="pub-card reveal" data-year="2024" data-venue="SIGMOD">
         <div class="pub-venue-badge">SIGMOD</div>
         <h3 class="pub-title">A Demonstration of GPTuner: A GPT-Based Manual-Reading Database Tuning System</h3>
         <p class="pub-authors"><strong>Jiale Lao</strong>, Yibo Wang, Yufei Li, Jianping Wang, Yunjia Zhang, Zhiyuan Cheng, Wanghu Chen, Yuanchun Zhou, Mingjie Tang, Jianguo Wang</p>
@@ -297,6 +342,13 @@
     <div class="container">
       <h2 class="section-title reveal">Invited Talks</h2>
       <div class="talks-list">
+        <div class="talk-item reveal">
+          <span class="talk-date">Jun 2026</span>
+          <div class="talk-info">
+            <h3>GenDB: The Next Generation of Query Processing</h3>
+            <p>Research Talk at <a href="https://deem.berlin/" target="_blank" rel="noopener">DEEM Lab</a>, Berlin</p>
+          </div>
+        </div>
         <div class="talk-item reveal">
           <span class="talk-date">Feb 2026</span>
           <div class="talk-info">
